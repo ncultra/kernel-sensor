@@ -1,0 +1,5 @@
+0x00000000	k_sensor	/home/mdday/src/savior/control/kernel/controller	EXPORT_SYMBOL
+0x00000000	listener	/home/mdday/src/savior/control/kernel/controller	EXPORT_SYMBOL
+0x00000000	init_and_queue_work	/home/mdday/src/savior/control/kernel/controller	EXPORT_SYMBOL
+0x00000000	SHOULD_SHUTDOWN	/home/mdday/src/savior/control/kernel/controller	EXPORT_SYMBOL
+0x00000000	init_sensor	/home/mdday/src/savior/control/kernel/controller	EXPORT_SYMBOL

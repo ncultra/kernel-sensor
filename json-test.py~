@@ -1,0 +1,5 @@
+#!/usr/bin/python
+
+
+
+{"Virtue-protocol-version": 0.1, "reply": ["cb44fb69cc20428b8a6467f9b7f459f5", "discovery", [["Kernel Sysfs Sensor", "db45b0a9-69eb-4c8d-ba87-e9385827be9b"], ["Kernel LSOF Sensor", "29efdcd0-f340-4d05-92de-c28a7e41befe"], ["Kernel PS Sensor", "ca79be80-2936-415c-90fc-875ad90f48a4"]]]}

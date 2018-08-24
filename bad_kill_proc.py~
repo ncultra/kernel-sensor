@@ -1,0 +1,22 @@
+import subprocess
+import signal
+import os
+from datetime import datetime as dt
+
+
+process_name = sys.argv[1]
+log_file_name = sys.argv[2]
+
+
+proc = subprocess.Popen(["pgrep", process_name], stdout=subprocess.PIPE) 
+
+# Kill process.
+for pid in proc.stdout:
+    os.kill(int(pid), signal.SIGTERM)
+    # Check if the process that we killed is alive.
+    try: 
+       os.kill(int(pid), 0)
+       raise Exception("""wasn't able to kill the process 
+                          HINT:use signal.SIGKILL or signal.SIGABORT""")
+    except OSError as ex:
+       continue
